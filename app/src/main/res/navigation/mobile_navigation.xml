@@ -9,7 +9,7 @@
         android:id="@+id/navigation_history"
         android:name="com.example.halojatahalloo.ui.history.HistoryFragment"
         android:label="@string/title_history"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_history" />
 
     <fragment
         android:id="@+id/navigation_contacts"
@@ -20,5 +20,5 @@
         android:id="@+id/navigation_dial"
         android:name="com.example.halojatahalloo.ui.dial.DialFragment"
         android:label="@string/title_dial"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_dial" />
 </navigation>

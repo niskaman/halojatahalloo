@@ -21,8 +21,8 @@ class DialFragment : Fragment() {
     ): View? {
         dialViewModel =
             ViewModelProviders.of(this).get(DialViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_notifications, container, false)
-        val textView: TextView = root.findViewById(R.id.text_notifications)
+        val root = inflater.inflate(R.layout.fragment_dial, container, false)
+        val textView: TextView = root.findViewById(R.id.text_dial)
         dialViewModel.text.observe(this, Observer {
             textView.text = it
         })
